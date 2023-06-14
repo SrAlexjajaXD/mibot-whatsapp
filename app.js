@@ -10,8 +10,8 @@ require('dotenv').config();
  * Declaramos las conexiones de Mongo
  */
 
-const MONGO_DB_URI = 'mongodb://mongo:phAg2zQyj0jsZpGzc602@containers-us-west-164.railway.app:6241'
-const MONGO_DB_NAME = 'bot'
+const MONGO_DB_URI = process.env.MONGO_DB_URI
+const MONGO_DB_NAME = process.env.MONGO_DB_NAME
 
 const apiKey = process.env.OPENAI_API_KEY;
 /**
