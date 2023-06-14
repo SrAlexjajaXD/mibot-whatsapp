@@ -6,25 +6,10 @@ const MongoAdapter = require('@bot-whatsapp/database/mongo')
 const axios = require('axios')
 require('dotenv').config();
 
-/**
- * Declaramos las conexiones de Mongo
- */
-
 const MONGO_DB_URI = process.env.MONGO_DB_URI
 const MONGO_DB_NAME = process.env.MONGO_DB_NAME
-
 const apiKey = process.env.OPENAI_API_KEY;
-/**
- * Aqui declaramos los flujos hijos, los flujos se declaran de atras para adelante, es decir que si tienes un flujo de este tipo:
- *
- *          Menu Principal
- *           - SubMenu 1
- *             - Submenu 1.1
- *           - Submenu 2
- *             - Submenu 2.1
- *
- * Primero declaras los submenus 1.1 y 2.1, luego el 1 y 2 y al final el principal.
- */
+
 const botResponse = async (peticion) => {
     const config = {
         method: 'post',
@@ -51,21 +36,7 @@ const botResponse = async (peticion) => {
     return cleanText
 }
 
-
-
-// const flowPrincipal = addKeyword(['bot'])
-//     .addAnswer('Que puedo hacer por ti', {capture:true})
-//     .addAnswer('Permiteme un momento', null, async (ctx, {flowDynamic, endFlow})=>{
-//         const respuesta = await botResponse(ctx.body)
-//         flowDynamic(respuesta)
-//     })
-//     .addAnswer('Listo :3', {delay:1500})
-
-
-
-
 const flowPrincipal =  addKeyword(['hola', 'oye', 'ey', 'amigo', 'disculpa', 'necesito'])
-    .addAnswer('Holaaaaaa :3, mi nombre es Maria, un bot creado por Alex')
     .addAnswer('Pideme lo que necesites :3', {capture:true}, async (ctx, {flowDynamic})=>{
         const data = await botResponse(ctx.body)
         flowDynamic(data)
