@@ -1,0 +1,60 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217351968424@s.whatsapp.net',
+    fromMe: false,
+    id: 'A6B802585906834380AD89AB8670CC53',
+    participant: undefined
+  },
+  messageTimestamp: 1686770471,
+  pushName: 'Sr.AlexjajaXD',
+  broadcast: false,
+  message: Message {
+    conversation: 'Oye',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Oye',
+  from: '5217351968424'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217351968424@s.whatsapp.net',
+    fromMe: false,
+    id: '7F063C50894E1B68C091A68DBD08A2D7',
+    participant: undefined
+  },
+  messageTimestamp: 1686770473,
+  pushName: 'Sr.AlexjajaXD',
+  broadcast: false,
+  message: Message {
+    conversation: 'Escribe OK',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Escribe OK',
+  from: '5217351968424'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217351968424@s.whatsapp.net',
+    fromMe: false,
+    id: '60721ACF2B7083A5FE0B7A7CE484A10A',
+    participant: undefined
+  },
+  messageTimestamp: 1686770478,
+  pushName: 'Sr.AlexjajaXD',
+  broadcast: false,
+  message: Message {
+    conversation: 'Gracias',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Gracias',
+  from: '5217351968424'
+}
