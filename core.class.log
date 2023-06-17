@@ -2,139 +2,19 @@
   key: {
     remoteJid: '5217351968424@s.whatsapp.net',
     fromMe: false,
-    id: 'A1998BBAEBB3358B9ABD535EFE6F6FB3',
+    id: '15A5AAEB6E8F2FB7FCE066E5A9FFF70F',
     participant: undefined
   },
-  messageTimestamp: 1686771139,
+  messageTimestamp: 1686962482,
   pushName: 'Sr.AlexjajaXD',
   broadcast: false,
   message: Message {
-    conversation: 'Oye',
+    conversation: 'Hola me llamo Alex',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Oye',
-  from: '5217351968424'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5217351968424@s.whatsapp.net',
-    fromMe: false,
-    id: 'F74AF0328D1EFCDEADD76D40405FD0CE',
-    participant: undefined
-  },
-  messageTimestamp: 1686771145,
-  pushName: 'Sr.AlexjajaXD',
-  broadcast: false,
-  message: Message {
-    conversation: 'Escribe un Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Escribe un Hola',
-  from: '5217351968424'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5217351968424@s.whatsapp.net',
-    fromMe: false,
-    id: '9295D5D495EE16A42E391581B98724EF',
-    participant: undefined
-  },
-  messageTimestamp: 1686771158,
-  pushName: 'Sr.AlexjajaXD',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hola María',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola María',
-  from: '5217351968424'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5217351968424@s.whatsapp.net',
-    fromMe: false,
-    id: '475894ED4F1CD4107FB6FDBB1440AAE1',
-    participant: undefined
-  },
-  messageTimestamp: 1686771167,
-  pushName: 'Sr.AlexjajaXD',
-  broadcast: false,
-  message: Message {
-    conversation: 'Gracias',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Gracias',
-  from: '5217351968424'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5217351968424@s.whatsapp.net',
-    fromMe: false,
-    id: '404D25A8F210DC63938EC6BF3B71E090',
-    participant: undefined
-  },
-  messageTimestamp: 1686771184,
-  pushName: 'Sr.AlexjajaXD',
-  broadcast: false,
-  message: Message {
-    conversation: 'Oye Maria',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Oye Maria',
-  from: '5217351968424'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5217351968424@s.whatsapp.net',
-    fromMe: false,
-    id: 'A8F7ECA0D36A65CD83963D719867F02E',
-    participant: undefined
-  },
-  messageTimestamp: 1686771194,
-  pushName: 'Sr.AlexjajaXD',
-  broadcast: false,
-  message: Message {
-    conversation: 'Escribe un Como estás?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Escribe un Como estás?',
-  from: '5217351968424'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5217351968424@s.whatsapp.net',
-    fromMe: false,
-    id: '52E26DB22B1282A0A3BD98514A066971',
-    participant: undefined
-  },
-  messageTimestamp: 1686771199,
-  pushName: 'Sr.AlexjajaXD',
-  broadcast: false,
-  message: Message {
-    conversation: 'Gracias',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Gracias',
+  body: 'Hola me llamo Alex',
   from: '5217351968424'
 }
